@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.depressiontest.ReccomendActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Disclaimer"
+            android:textColor="#0D47A1"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/infoDisclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Disclaimer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:text="keteranganDisclaimer"
+            android:textColor="#0D47A1"
+            android:textSize="15sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/DefineDepression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infoDisclaimer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:onClick="browser1"
+            android:text="What is Depression"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/selfguide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DefineDepression"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:onClick="browser2"
+            android:text="Self-help Guide"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contactlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selfguide"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:onClick="browser3"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="List of Contact" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0D47A1"
+            android:layout_below="@id/contactlist"
+            android:layout_marginTop="50dp"
+            android:text="Menu"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/MainMenu"/>
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

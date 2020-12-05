@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.depressiontest.ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Depression Severity Result"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:id="@+id/TestResult"
+        />
+
+
+    <ImageView
+        android:id="@+id/ScoreRange"
+        android:layout_width="187dp"
+        android:layout_height="135dp"
+        android:layout_alignTop="@+id/TestResult"
+        android:layout_alignBottom="@+id/recList"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="111dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="391dp"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/phqindicator" />
+
+    <Button
+        android:id="@+id/recList"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TestResult"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="342dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="-330dp"
+        android:background="#0D47A1"
+        android:text="view recommendation"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

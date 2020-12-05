@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ibm.watson.developer_cloud:core:6.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/core/6.1.1/dbd7f3eea7a8058edb13566470ab31339731c6f7/core-6.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/core/6.1.1/6cfdd068163c6c61eb74fc0af1d2c7706428e623/core-6.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/core/6.1.1/df2e58664392344f10a755576b4247769dad71d8/core-6.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

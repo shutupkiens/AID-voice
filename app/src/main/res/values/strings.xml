@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AID DEPRESSION TEST</string>
+    <string name="voiceEmotion">Emotion Detected</string>
+    <string name="textNeutral">neutrality</string>
+    <string name="textHappy">happiness</string>
+    <string name="textSad">sadness</string>
+    <string name="textAnger">anger</string>
+    <string name="textFear">fear</string>
+</resources>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.support.constraint:constraint-layout:1.0.2@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/transforms-2/files-2.1/423efabc0e5a66eacda5a28a402c8765/constraint-layout-1.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/transforms-2/files-2.1/423efabc0e5a66eacda5a28a402c8765/constraint-layout-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/transforms-2/files-2.1/423efabc0e5a66eacda5a28a402c8765/constraint-layout-1.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

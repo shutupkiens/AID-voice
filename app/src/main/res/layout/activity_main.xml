@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.depressiontest.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="340dp"
+        android:layout_height="163dp"
+        android:layout_alignStart="@+id/AmID"
+        android:layout_alignLeft="@+id/AmID"
+        android:layout_alignEnd="@+id/AmID"
+        android:layout_alignRight="@+id/AmID"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-98dp"
+        android:layout_marginLeft="-98dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginRight="-99dp"
+        android:layout_marginBottom="547dp"
+        app:srcCompat="@drawable/commpeep" />
+
+    <TextView
+        android:id="@+id/AIDText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/AmID"
+        android:layout_alignLeft="@+id/AmID"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-220dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginBottom="490dp"
+        android:gravity="center_horizontal"
+        android:text="AID"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/AmID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-144dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:layout_marginBottom="451dp"
+        android:gravity="center_horizontal"
+        android:text="Am I Depressed"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnVoice"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/AmID"
+        android:layout_alignLeft="@+id/AmID"
+        android:layout_alignEnd="@+id/AmID"
+        android:layout_alignRight="@+id/AmID"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-92dp"
+        android:layout_marginLeft="-92dp"
+        android:layout_marginEnd="-99dp"
+        android:layout_marginRight="-99dp"
+        android:layout_marginBottom="16dp"
+        android:background="#0D47A1"
+        android:text="Voice Detection"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnFace"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/AIDText"
+        android:layout_alignLeft="@+id/AIDText"
+        android:layout_alignTop="@+id/AIDText"
+        android:layout_alignEnd="@+id/AIDText"
+        android:layout_alignRight="@+id/AIDText"
+        android:layout_alignBottom="@+id/AIDText"
+        android:layout_marginStart="-115dp"
+        android:layout_marginLeft="-115dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="-126dp"
+        android:layout_marginRight="-126dp"
+        android:layout_marginBottom="-242dp"
+        android:background="#0D47A1"
+        android:text="Face Detection"
+        android:textColor="#FFFFFF" />
+
+
+
+
+
+</RelativeLayout>

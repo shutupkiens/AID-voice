@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ibm.watson.developer_cloud:tone-analyzer:6.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/tone-analyzer/6.1.1/b0948d86743fa450bcc8dda676c685fd0c22084/tone-analyzer-6.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/tone-analyzer/6.1.1/8b476eb2a6bfdf26c19e9ce479452fee1bd3b2aa/tone-analyzer-6.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../EmoStack/EmoStack/gradle/caches/modules-2/files-2.1/com.ibm.watson.developer_cloud/tone-analyzer/6.1.1/aae9ffaf0f8a80d1d271555bcd6c697f15d00027/tone-analyzer-6.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
